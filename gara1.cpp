@@ -228,7 +228,7 @@ int main(){
 		
 	}
 	
-	//return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }
 
 bool playMusicForFiveSeconds(){
@@ -238,5 +238,4 @@ bool playMusicForFiveSeconds(){
     music.play();
     sf::sleep(sf::seconds(5.0f));
     return true;
-    // since music is a local variable, it is destroyed here (thus stopping playback)
 }
