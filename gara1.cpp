@@ -8,7 +8,7 @@ bool playMusicForFiveSeconds();
 
 int main(){
     float target = 150.0f;
-    sf::RenderWindow window(sf::VideoMode(1500,700), "GARA TRE VEICOLI!");//default close,resize and tilebar
+    sf::RenderWindow window(sf::VideoMode(1500,350), "GARA TRE VEICOLI!");//default close,resize and tilebar
 	sf::RectangleShape rettangolo(sf::Vector2f(100.f,50.f));//rettangolo(100x50)
 	sf::RectangleShape rettangolo1(sf::Vector2f(100.f,50.f));//rettangolo(100x50)
 	sf::RectangleShape rettangolo2(sf::Vector2f(100.f,50.f));//rettangolo(100x50)
