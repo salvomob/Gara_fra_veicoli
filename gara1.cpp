@@ -67,19 +67,19 @@ int main(){
 	v2.setAccM(2.5f);
 	v2.setVelM(20.0f);
 	
-	Veicolo v3(4);
+	Veicolo v3(2);
 	v3.setAccM(2.5f);
 	v3.setVelM(20.0f);
 	
-	Veicolo v4(4);
+	Veicolo v4(2);
 	v4.setAccM(2.5f);
 	v4.setVelM(20.0f);
 	
-	Veicolo v5(4);
+	Veicolo v5(8);
 	v5.setAccM(2.5f);
 	v5.setVelM(20.0f);
 	
-	Veicolo v6(4);
+	Veicolo v6(8);
 	v6.setAccM(2.5f);
 	v6.setVelM(20.0f);
 	
